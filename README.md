@@ -1,59 +1,53 @@
-# Employeemanagerapp
+Employee Management System – Frontend
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+A modern Employee Management System frontend built using Angular. This application allows users to manage employee records efficiently with a clean UI and seamless integration with a backend API.
 
-## Development server
+🚀 Features
 
-To start a local development server, run:
+🔐 User-friendly interface
 
-```bash
-ng serve
-```
+👨‍💼 Add, update, view, and delete employees
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+🔍 Search employees by name or role
 
-## Code scaffolding
+🌐 REST API integration with backend (Spring Boot)
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+⚡ Fast and responsive Angular UI
 
-```bash
-ng generate component component-name
-```
+🧩 Modular and scalable project structure
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+🛠️ Tech Stack
 
-```bash
-ng generate --help
-```
+Frontend Framework: Angular
 
-## Building
+Language: TypeScript
 
-To build the project run:
+Styling: CSS / Bootstrap
 
-```bash
-ng build
-```
+API Communication: HTTPClient
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+Version Control: Git & GitHub
 
-## Running unit tests
+🔗 Backend Integration
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+This frontend is designed to work with a Spring Boot backend.
 
-```bash
-ng test
-```
+Make sure your backend server is running (default):
+http://localhost:8080
 
-## Running end-to-end tests
+Update API URLs in:
+src/environments/environment.ts
 
-For end-to-end (e2e) testing, run:
+📸 Screenshots
 
-```bash
-ng e2e
-```
+<img width="1898" height="520" alt="Screenshot 2026-02-05 095121" src="https://github.com/user-attachments/assets/00e81dff-f863-4cfe-aec4-8726cfdd3bf0" />
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+📌 Future Enhancements
 
-## Additional Resources
+🔑 Authentication & Authorization
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+📊 Dashboard with analytics
+
+📁 Export employee data (Excel / PDF)
+
+🌍 Deployment to cloud (Netlify / AWS)
